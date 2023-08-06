@@ -1,0 +1,933 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;500&family=Lato:wght@300;400&family=Montserrat:wght@300;500;800&display=swap');
+
+
+.home-pg {
+    background-image: url('images/hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+  
+}
+
+
+.home-pg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    padding-top: 1rem;
+    color: white;
+    position: relative;
+    z-index: 2;
+
+}
+
+.brand-name {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.header-one {
+    margin-right: 20px;
+}
+
+.brand-name {
+    padding-right: 2.5rem;
+}
+
+.header-one .list li {
+    display: inline-block;
+    margin-right: 1rem;
+    font-weight: lighter;
+}
+
+.header-two {
+    position: relative;
+    top: -1rem;
+}
+
+.header-two li {
+    display: inline-block;
+    margin-right: 1.5rem;
+    position: relative;
+    font-weight: lighter;
+
+}
+
+.became-member {
+    border: none;
+    background-color: #23A6F0;
+    color: #fff;
+    padding: 0.9rem 1rem;
+    cursor: pointer;
+
+}
+
+
+.home-content {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.home-content h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    padding-top: 3.25rem;
+    padding-left: 0.5rem;
+    letter-spacing: 1x;
+}
+
+.home-content h4 {
+    color: white;
+    font-size: 1rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding-top: 2.5rem;
+}
+
+.home-btns {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.8rem;
+
+}
+
+.get-quote-btn,
+.learn-more-btn {
+    border-radius: 25px;
+    padding: 1rem;
+    color: white;
+}
+
+
+.get-quote-btn {
+    width: 12%;
+    border-style: none;
+    background-color: #23A6F0;
+}
+
+.learn-more-btn {
+    width: 12%;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.2rem;
+
+
+}
+
+.section-two ion-icon {
+    height: 3em;
+    width: 3.5em;
+    color: #3498DB;
+    padding-bottom: 1rem;
+}
+
+.section-two h1 {
+    padding-bottom: 1rem;
+    font-weight: 800;
+}
+
+.section-two p {
+    padding-top: 0.5rem;
+}
+
+.section-two-one,
+.section-two-two,
+.section-two-three {
+    min-height: 7rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    position: relative;
+    top: -3rem;
+    z-index: 2;
+    padding-bottom: 2rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.section-two-one {
+    width: 15rem;
+}
+
+.section-two-two {
+    width: 15rem;
+}
+
+.section-two-three {
+    width: 15rem;
+    background-color: #23A6F0;
+    color: white;
+}
+
+.section-two-three ion-icon {
+    color: white;
+}
+
+.section-two-one,
+.section-two-two {
+    color: #252b42;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8rem;
+    padding-top: 10rem;
+    text-align: center;
+    padding-bottom: 10rem;
+    line-height: 1rem;
+
+}
+
+.section-three h4 {
+    padding-bottom: 0.5rem;
+}
+
+.section-three p {
+    font-size: 13.5px;
+}
+
+.section-three ion-icon {
+    color: #23A6F0;
+    height: 4em;
+    width: 3.5em;
+    color: #3498DB;
+    justify-content: center;
+
+}
+
+
+.section-three h4 {
+    color: #252b42;
+}
+
+.mid-section {
+    text-align: center;
+}
+
+
+.ratings-pg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 5rem;
+}
+
+.mid-section h1 {
+    color: #252b42;
+}
+
+.ratings-pg ion-icon {
+    width: 1.25rem;
+    height: 2.5rem;
+    color: yellow;
+    padding-top: 1.5rem;
+
+}
+
+.ratings-pg img {
+    width: 50%;
+    align-items: center;
+}
+
+.review-one,
+.review-two,
+.review-three {
+    background-color: white;
+    border: 0.025em solid rgb(226, 223, 223);
+    flex-direction: column;
+    padding-top: 1.2em;
+    align-content: center;
+    height: fit-content;
+    text-align: center;
+    padding-bottom: 2.5em;
+
+}
+
+.review-one p,
+.review-two p,
+.review-three p {
+    padding-top: 2rem;
+}
+
+.socials {
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+}
+
+.socials img {
+    width: 5%;
+    height: 20%;
+}
+
+.subscribe {
+    margin-top: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: linear-gradient(90deg, #004788, #d71489);
+    margin-right: 15rem;
+    margin-left: 15rem;
+}
+
+.subscribe h3 {
+    color: white;
+    margin-top: 2rem;
+}
+
+.email {
+    height: 1.4rem;
+    padding: 0.7rem;
+    width: 15rem;
+    padding-left: 1rem;
+    position: relative;
+    left: 0.4rem;
+
+}
+
+.sub-btn {
+    text-align: center;
+    height: 2.4rem;
+    width: 5rem;
+    padding-bottom: 1.8rem;
+    font-size: 12.5px;
+
+
+}
+
+.pricing-pg {
+    text-align: center;
+    padding-bottom: 13.5rem;
+    gap: 12rem;
+    padding-top: 10rem;
+    color: #252b42;
+}
+
+.price-info {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.price-info h2 {
+    padding-bottom: 2.5rem;
+}
+
+.price-info h5 {
+    padding-bottom: 2.5rem;
+}
+
+.price-info h3 {
+    padding-bottom: 2.5rem;
+}
+
+.price-info p {
+    line-height: 2rem;
+}
+
+.price-info button {
+    margin-top: 5rem;
+    width: 80%;
+    height: 8%;
+
+}
+
+.free_section {
+    border-radius: 15px;
+    border: 1px solid #3498DB;
+    height: 45rem;
+    padding-top: 5rem;
+    width: 22.5rem;
+    background-color: white;
+}
+
+.free_section h2 {
+    color: black;
+}
+
+.standard_section {
+    border-radius: 15px;
+    height: 45rem;
+    width: 22.5rem;
+    padding-top: 5rem;
+    position: relative;
+    background-color: #041e42;
+
+}
+
+.standard_section::before {
+    content: "";
+    position: absolute;
+    top: -2.5rem;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: 15px;
+    border: 1px solid #3498DB;
+    background-color: #041e42;
+
+
+}
+
+.price-info h3 {
+    color: #3498DB;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.price-info sup {
+    font-size: 0.9rem;
+}
+
+.price-info span {
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+.price-info h2 {
+    color: white;
+}
+
+.premium_section h2 {
+    color: black;
+}
+
+.standard_section h2 {
+    color: white;
+    z-index: 3;
+    position: relative;
+}
+
+.standard_section h3 {
+    color: #3498DB;
+    z-index: 3;
+    position: relative;
+}
+
+.standard_section h5 {
+    color: white;
+    z-index: 3;
+    position: relative;
+}
+
+.standard_section p {
+    color: white;
+    z-index: 2;
+}
+
+
+.try-for-free-btn {
+    position: relative;
+    top: -2.5rem;
+    color: white;
+    background-color: #3498DB;
+    border-style: none;
+}
+
+.price-info button {
+    color: white;
+    background-color: #3498DB;
+    border-style: none;
+}
+
+.premium_section {
+    border-radius: 15px;
+    border: 1.5px solid #3498DB;
+    height: 45rem;
+    padding-top: 5rem;
+    width: 22.5rem;
+    background-color: white;
+
+}
+
+
+.check_item p {
+    margin: 10px;
+
+}
+
+.check_item_two p {
+    margin: 10px;
+}
+
+.check_item {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    padding-left: 1.5rem;
+}
+
+.check_item ion-icon {
+
+    color: green;
+    width: 60px;
+    height: 30px;
+
+}
+
+.check_item_two {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding-left: 1.5rem;
+}
+
+.check_item_two ion-icon {
+
+    color: grey;
+
+    width: 60px;
+    height: 30px;
+}
+
+.about-section {
+    margin-top: 7rem;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    background-color: #041e42;
+height: 50vh;
+    padding: 2rem;
+    color: white;
+    padding-bottom: 20rem;
+    padding-top: 5rem;
+ 
+}
+
+.about-section img {
+    height: 15rem;
+    width: 30rem;
+}
+
+.textinfo h1 {
+    padding-bottom: 2rem;
+}
+
+.form-details h1 {
+    color: #252b42;
+}
+
+
+.textinfo p {
+    font-weight: lighter;
+    font-size: 0.8rem;
+    line-height: 1.35rem;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: -20rem;
+}
+
+.form-details form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5.5rem;
+    background-color: white;
+    height: 25rem;
+
+}
+
+.img-book img {
+    width: 15rem;
+    height: 36rem;
+    padding: 0%;
+    position: relative;
+    left: 4rem;
+
+
+}
+
+label {
+    padding-bottom: 1.2rem;
+    padding-top: 0.5rem;
+    color: #252b42;
+
+}
+
+button {
+    padding: 1rem;
+    color: white;
+    background-color: #3498DB;
+    border-style: none;
+    margin-top: 2rem;
+
+}
+
+#department,
+#time {
+    border-style: none;
+}
+
+input {
+    padding: 10px;
+    width: 30rem;
+    background-color: rgb(243, 241, 241);
+    border-style: none;
+    
+}
+
+select {
+    padding: 10px;
+    background-color: rgb(243, 241, 241);
+}
+
+option {
+    padding: 10px;
+    background-color: rgb(243, 241, 241);
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20rem;
+    padding-top: 10px;
+}
+
+.Info-on-consulting {
+    text-align: left;
+    padding-top: 2.5rem;
+    color: #252b42;
+}
+
+.btn-contact {
+    padding-bottom: 50px;
+    border-style: 1px solid;
+    border-color: white;
+    border-radius: 5.5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.contact_item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.contact_item ion-icon {
+    margin-right: 10px;
+    color: #3498DB;
+
+}
+
+.footer_info {
+    padding: 20px;
+}
+
+.footer h4 {
+    padding-bottom: 15px;
+
+}
+
+.footer p {
+    line-height: 2.2rem;
+}
+
+.footer_info h4 {
+    color: #252b42;
+}
+
+.ending {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.ending-text {
+    padding: 3rem;
+}
+
+.ending-text p {
+    font-size: 1rem;
+}
+
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    color: #3498DB;
+    align-items: center;
+}
+
+
+@media (max-width: 767px) {
+
+
+    .home-pg {
+        background-size: cover;
+
+    }
+
+    .home-content h1 {
+        font-size: 2rem;
+    }
+
+    .home-content h4 {
+        font-size: 0.9rem;
+    }
+
+    .home-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .get-quote-btn {
+        width: 10rem;
+    }
+
+    .learn-more-btn {
+        width: 10rem;
+    }
+
+    .form-details form{
+        width:9rem;
+    }
+
+input{
+    width: 5rem;
+}
+
+    .header-two li {
+        display: none;
+    }
+
+    .header-one {
+        display: none;
+    }
+
+
+
+
+
+    .section-two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .section-two-one,
+    .section-two-two,
+    .section-two-three {
+        width: 12.5rem;
+    }
+
+    .section-three {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ratings-pg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+
+
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .continent_img img {
+        display: none;
+    }
+
+    .img-book img {
+        display: none;
+    }
+
+    input {
+        padding: 10px;
+        width: 10rem;
+        background-color: rgb(243, 241, 241);
+        border-style: none;
+    }
+
+    .contact-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding-top: 10px;
+    }
+
+    .form-details form {
+        margin-top: 20rem;
+        /* align-items: center; */
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+
+    .subscribe {
+        display: none;
+    }
+
+
+    .logos {
+        display: none;
+    }
+
+    .standard_section {
+        border-radius: 15px;
+        height: 45rem;
+        width: 18rem;
+        padding-top: 5rem;
+        position: relative;
+        background-color: #041e42;
+        margin-top: 2rem;
+
+    }
+
+    .free_section {
+        border-radius: 15px;
+        border: 3px solid #3498DB;
+        height: 45rem;
+        padding-top: 5rem;
+        width: 18rem;
+        background-color: white;
+
+    }
+    #department,
+    #time {
+        width: 11.5rem;
+    }
+
+    .free_section p {
+        font-size: 0.7rem;
+    }
+
+    .standard_section p {
+        font-size: 0.7rem;
+    }
+
+    .premium_section {
+        font-size: 0.7rem;
+    }
+  
+
+    .socials img {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .premium_section {
+        border-radius: 15px;
+        border: 3px solid #3498DB;
+        height: 45rem;
+        padding-top: 5rem;
+        width: 18rem;
+        background-color: white;
+
+    }
+
+    .Info-on-consulting {
+        text-align: center;
+    }
+
+    .ending-text p {
+        font-size: 0.5rem;
+    }
+
+
+}
