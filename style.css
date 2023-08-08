@@ -15,7 +15,7 @@
     height: 100vh;
     width: 100vw;
     background-position: center;
-  
+
 }
 
 
@@ -212,7 +212,7 @@
     text-align: center;
     padding-bottom: 10rem;
     line-height: 1rem;
-align-items: center;
+    align-items: center;
 }
 
 .section-three h4 {
@@ -301,10 +301,10 @@ align-items: center;
     height: 3rem;
 }
 
-.sb-container{
+.sb-container {
     display: grid;
     place-items: center;
-    margin-top:5rem;
+    margin-top: 5rem;
 }
 
 .subscribe {
@@ -316,9 +316,9 @@ align-items: center;
     text-align: center;
     justify-content: end;
     background-image: linear-gradient(90deg, #004788, #d71489);
-   width: 60rem;
- justify-content: space-around;
-   
+    width: 60rem;
+    justify-content: space-around;
+
 }
 
 .subscribe h3 {
@@ -550,7 +550,7 @@ align-items: center;
     color: white;
     padding-bottom: 20rem;
     padding-top: 5rem;
- 
+
 }
 
 .about-section img {
@@ -627,7 +627,7 @@ input {
     width: 30rem;
     background-color: rgb(243, 241, 241);
     border-style: none;
-    
+
 }
 
 select {
@@ -763,13 +763,13 @@ option {
         width: 10rem;
     }
 
-    .form-details form{
-        width:9rem;
+    .form-details form {
+        width: 9rem;
     }
 
-input{
-    width: 5rem;
-}
+    input {
+        width: 5rem;
+    }
 
     .header-two li {
         display: none;
@@ -778,6 +778,7 @@ input{
     .header-one {
         display: none;
     }
+
     .email {
         height: 1.4rem;
         padding: 0.7rem;
@@ -785,13 +786,13 @@ input{
         padding-left: 1rem;
         position: relative;
         left: 0.4rem;
-    
+
     }
 
-    .sub-btn{
+    .sub-btn {
         position: relative;
-        top:-2rem;
-        left:-5.45rem;
+        top: -2rem;
+        left: -5.45rem;
     }
 
 
@@ -834,27 +835,29 @@ input{
     }
 
     .subscribe {
-     
+
         display: flex;
         flex-direction: column;
         text-align: center;
         justify-content: end;
         background-image: linear-gradient(90deg, #004788, #d71489);
-       width: 20rem;
-     justify-content: space-around;
-       
+        width: 20rem;
+        justify-content: space-around;
+
     }
 
     .about-section {
         display: flex;
         flex-direction: column;
         align-items: center;
- 
+
 
     }
-    .about-section h1{
-    padding-top: 5.5rem;
+
+    .about-section h1 {
+        padding-top: 5.5rem;
     }
+
     .continent_img img {
         display: none;
     }
@@ -921,6 +924,7 @@ input{
         background-color: white;
 
     }
+
     #department,
     #time {
         width: 11.5rem;
@@ -937,7 +941,7 @@ input{
     .premium_section {
         font-size: 0.7rem;
     }
-  
+
 
     .socials img {
         height: 5rem;
